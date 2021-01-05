@@ -70,6 +70,13 @@ For processing the video `/some/where/video.mp4`, the call would look like:
 p.process(video_file="/some/where/video.mp4")
 ```
 
+For custom clean-up operations, once the video has been processed, you can supply
+a method with the following signature:
+
+* `processor` - the `Processor` instance that called this method
+* `video_capture_opened` - whether the opening of the video source was successful (`bool`)
+
+
 ## Custom logging
 
 By supplying a method to the `logging` property, you can customize the logging
