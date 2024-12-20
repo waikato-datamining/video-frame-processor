@@ -11,7 +11,7 @@ library.
 Install via pip:
 
 ```
-pip install video-frame-processor
+pip install video_frame_processor
 ```
 
 ## Usage

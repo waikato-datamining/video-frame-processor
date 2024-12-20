@@ -16,7 +16,7 @@ def _read(f):
 
 
 setup(
-    name="video-frame-processor",
+    name="video_frame_processor",
     description="Python 3 library to make video frame processing easier.",
     long_description=(
         _read('DESCRIPTION.rst') + b'\n' +
